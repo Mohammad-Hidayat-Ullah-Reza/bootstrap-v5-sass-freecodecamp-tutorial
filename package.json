@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-v5-sass-freecodecamp-tutorial",
+  "version": "1.0.0",
+  "description": "learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Mohammad Hidayat Ullah Reza",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.59.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha1",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}
